@@ -1,0 +1,30 @@
+body {
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-top {
+  border-radius: 10px;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.card-body > p:first-child {
+  font-weight: 700;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.card-body > p:last-child {
+  color: hsl(220, 15%, 55%);
+  font-size: 11px;
+  text-align: center;
+}
