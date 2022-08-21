@@ -12,6 +12,7 @@ h1 {
   font-size: 17px;
   text-align: center;
   font-weight: 700;
+  color: hsl(218, 44%, 22%);
 }
 
 .card-img-top {
@@ -27,13 +28,7 @@ h1 {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.card-body > p:first-child {
-  font-weight: 700;
-  text-align: center;
-  color: hsl(218, 44%, 22%);
-}
-
-.card-body > p:last-child {
+.card-body > p {
   color: hsl(220, 15%, 55%);
   font-size: 12px;
   text-align: center;
