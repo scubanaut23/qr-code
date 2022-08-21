@@ -15,14 +15,14 @@ h1 {
 }
 
 .card-img-top {
-  width: 200px;
+  max-width: 15rem;
   border-radius: 10px;
 }
 
 .card {
-  width: 200px;
+  max-width: 15rem;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
