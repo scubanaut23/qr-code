@@ -3,7 +3,7 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
 }
@@ -28,7 +28,7 @@ h1 {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.card-body > p {
+.card-body p {
   color: hsl(220, 15%, 55%);
   font-size: 12px;
   text-align: center;
